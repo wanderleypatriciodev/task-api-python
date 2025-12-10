@@ -18,16 +18,13 @@ O projeto segue boas práticas de organização e utiliza variáveis de ambiente
 ## 📁 Estrutura sugerida do projeto
 
 ```
-project/
+todoapi/
 │-- app/
 │   ├── main.py
 │   ├── models.py
 │   ├── database.py
 │   ├── schemas.py
-│   ├── routers/
-│   │     └── tasks.py
-│   └── ...
-│
+│   ├── controller.py
 │-- .env
 │-- requirements.txt
 │-- README.md
@@ -40,7 +37,7 @@ project/
 ### 1️⃣ Clone o repositório
 
 ```bash
-git clone <seu-repositorio>
+git clone https://github.com/wanderleypatriciodev/task-api-python.git
 cd project
 ```
 
